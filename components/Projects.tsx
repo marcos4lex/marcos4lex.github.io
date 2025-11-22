@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
             </div>
 
             <h3 className="font-pixel text-lg text-white mb-2">CALCULADORA TERMINAL</h3>
-            <p className="font-retro text-xl text-gray-400 mb-6 h-20">
+            <p className="font-retro text-xl text-gray-400 mb-6 min-h-[5rem]">
               Uma aplicação robusta construída do zero em C. Realiza operações matemáticas com controle de fluxo preciso e tratamento de lógica estruturada.
             </p>
 
@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
             </div>
 
             <h3 className="font-pixel text-lg text-white mb-2">SHELDON MANIA</h3>
-            <p className="font-retro text-xl text-gray-400 mb-6 h-20">
+            <p className="font-retro text-xl text-gray-400 mb-6 min-h-[5rem]">
               Jogo "Pedra, Papel, Tesoura, Lagarto, Spock" contra o computador. Implementação complexa de condições de vitória e randomização.
             </p>
 
