@@ -24,26 +24,6 @@ O projeto foi construído utilizando as melhores práticas e ferramentas moderna
 -   **Responsividade**: Layout totalmente adaptável para mobile, tablet e desktop.
 -   **Easter Eggs**: Referências visuais a jogos clássicos.
 
-## 🛠️ Como Rodar Localmente
-
-1.  **Clone o repositório**
-    ```bash
-    git clone https://github.com/marcos4lex/marcos4lex.github.io.git
-    cd marcos4lex.github.io
-    ```
-
-2.  **Instale as dependências**
-    ```bash
-    npm install
-    ```
-
-3.  **Rode o servidor de desenvolvimento**
-    ```bash
-    npm run dev
-    ```
-
-4.  Acesse `http://localhost:5173` no seu navegador.
-
 ## 📂 Estrutura do Projeto
 
 ```
