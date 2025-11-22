@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
               Uma aplicação robusta construída do zero em C. Realiza operações matemáticas com controle de fluxo preciso e tratamento de lógica estruturada.
             </p>
 
-            <div className="bg-black p-4 border border-gray-700 mb-6 font-mono text-sm text-green-400 h-32 overflow-hidden relative">
+            <div className="bg-black p-4 border border-gray-700 mb-6 mt-6 font-mono text-sm text-green-400 h-32 overflow-hidden relative">
               <div className="opacity-50 text-xs">
                 #include &lt;stdio.h&gt;<br />
                 int main() &#123;<br />
@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
               Jogo "Pedra, Papel, Tesoura, Lagarto, Spock" contra o computador. Implementação complexa de condições de vitória e randomização.
             </p>
 
-            <div className="bg-black p-4 border border-gray-700 mb-6 font-mono text-sm text-green-400 h-32 overflow-hidden">
+            <div className="bg-black p-4 border border-gray-700 mb-6 mt-6 font-mono text-sm text-green-400 h-32 overflow-hidden">
               <p>&gt; Player escolheu: Spock</p>
               <p>&gt; CPU escolheu: Lagarto</p>
               <p className="text-red-500">&gt; Lagarto envenena Spock!</p>
