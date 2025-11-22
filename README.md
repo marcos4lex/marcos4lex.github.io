@@ -4,7 +4,7 @@
 
 Este é o repositório do meu portfólio pessoal, desenvolvido com um tema **Retro/Arcade** (inspirado em Pacman) para demonstrar minhas habilidades em desenvolvimento web e minha jornada de transição de carreira de Gestão de TI para Engenharia de Software.
 
-🔗 **Acesse online:** [marcos4lex.dev](https://marcos4lex.dev)
+🔗 **Acesse online:** [https://marcos4lex.dev](https://marcos4lex.dev)
 
 ## 🚀 Tecnologias Utilizadas
 
