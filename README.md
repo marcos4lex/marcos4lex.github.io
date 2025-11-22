@@ -1,7 +1,5 @@
 # 🕹️ Marcos Alexandre | Portfolio
 
-![Project Banner](https://raw.githubusercontent.com/marcos4lex/marcos4lex.github.io/main/public/marcos.jpg)
-
 > "Transformando problemas complexos em soluções funcionais. Do hardware ao software."
 
 Este é o repositório do meu portfólio pessoal, desenvolvido com um tema **Retro/Arcade** (inspirado em Pacman) para demonstrar minhas habilidades em desenvolvimento web e minha jornada de transição de carreira de Gestão de TI para Engenharia de Software.
