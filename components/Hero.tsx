@@ -3,7 +3,7 @@ import { ArrowDown, Github, Linkedin, Mail, FileText } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28">
       {/* Background Grid */}
       <div className="absolute inset-0 z-0 opacity-10"
         style={{
@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-4 z-10 relative text-center">
         <div className="inline-block mb-6 animate-bounce">
-          <span className="font-pixel text-pacman-pink text-[8px] sm:text-[10px] md:text-xs border-2 border-pacman-pink px-2 sm:px-3 py-2 uppercase tracking-wider sm:tracking-widest bg-black whitespace-nowrap">
+          <span className="font-pixel text-pacman-pink text-[8px] sm:text-[10px] md:text-xs border-2 border-pacman-pink px-2 sm:px-3 py-3 uppercase tracking-wider sm:tracking-widest bg-black whitespace-nowrap">
             Insert Coin to Start
           </span>
         </div>
