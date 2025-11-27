@@ -83,13 +83,24 @@ const Projects: React.FC = () => {
               <p className="text-pacman-yellow">&gt; GAME OVER</p>
             </div>
 
-            <div className="space-y-2">
-              <h4 className="font-pixel text-[10px] text-pacman-yellow">IDEIAS FUTURAS:</h4>
-              <ul className="list-disc list-inside font-retro text-gray-500 text-lg">
-                <li>Versão Web (React)</li>
-                <li>Sistema de Placar/Ranking</li>
-                <li>Efeitos Sonoros 8-bit</li>
-              </ul>
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <h4 className="font-pixel text-[10px] text-pacman-yellow">IDEIAS FUTURAS:</h4>
+                <ul className="list-disc list-inside font-retro text-gray-500 text-lg">
+                  <li>Versão Web (React)</li>
+                  <li>Sistema de Placar/Ranking</li>
+                  <li>Efeitos Sonoros 8-bit</li>
+                </ul>
+              </div>
+
+              <a
+                href="https://github.com/marcos4lex/sheldon-mania"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block w-full text-center font-pixel text-xs bg-pink-500/20 border-2 border-pink-500 text-pink-400 px-4 py-2 hover:bg-pink-500 hover:text-white transition-colors"
+              >
+                VISITAR SITE
+              </a>
             </div>
           </PixelCard>
 
