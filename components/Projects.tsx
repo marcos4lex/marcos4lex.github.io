@@ -1,6 +1,6 @@
 import React from 'react';
 import PixelCard from './PixelCard';
-import { Terminal, Calculator, Gamepad2 } from 'lucide-react';
+import { Terminal, Sparkles, Gamepad2 } from 'lucide-react';
 
 const Projects: React.FC = () => {
   return (
@@ -13,38 +13,52 @@ const Projects: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
           {/* Project 1 */}
-          <PixelCard borderColor="border-pacman-blue">
+          <PixelCard borderColor="border-pink-400">
             <div className="flex justify-between items-start mb-4">
-              <div className="p-3 bg-pacman-blue/20 rounded border border-pacman-blue">
-                <Calculator className="text-pacman-blue w-8 h-8" />
+              <div className="p-3 bg-pink-400/20 rounded border border-pink-400">
+                <Sparkles className="text-pink-400 w-8 h-8" />
               </div>
-              <span className="font-pixel text-[10px] bg-gray-800 px-2 py-1 text-gray-300">C LANG</span>
+              <span className="font-pixel text-[10px] bg-gray-800 px-2 py-1 text-gray-300">FRONTEND</span>
             </div>
 
-            <h3 className="font-pixel text-lg text-white mb-2">CALCULADORA TERMINAL</h3>
+            <h3 className="font-pixel text-lg text-white mb-2">MALU MIRANDA</h3>
             <p className="font-retro text-xl text-gray-400 mb-6 min-h-[5rem]">
-              Uma aplicação robusta construída do zero em C. Realiza operações matemáticas com controle de fluxo preciso e tratamento de lógica estruturada.
+              Portfolio interativo para a atriz e bailarina Malu Miranda. Design moderno com animações suaves e layout responsivo.
             </p>
 
-            <div className="bg-black p-4 border border-gray-700 mb-6 mt-6 font-mono text-sm text-green-400 h-32 overflow-hidden relative">
+            <div className="bg-black p-4 border border-gray-700 mb-6 mt-6 font-mono text-sm text-pink-400 h-32 overflow-hidden relative">
               <div className="opacity-50 text-xs">
-                #include &lt;stdio.h&gt;<br />
-                int main() &#123;<br />
-                &nbsp;&nbsp;printf("Enter operator: ");<br />
-                &nbsp;&nbsp;scanf("%c", &op);<br />
-                &nbsp;&nbsp;// Logic implementation...<br />
+                tailwind.config = &#123;<br />
+                &nbsp;&nbsp;theme: &#123;<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;extend: &#123;<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colors: &#123;<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pinky: '#f43f5e',<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&#125;<br />
+                &nbsp;&nbsp;&#125;<br />
                 &#125;
               </div>
               <div className="absolute bottom-2 right-2 animate-pulse">_</div>
             </div>
 
-            <div className="space-y-2">
-              <h4 className="font-pixel text-[10px] text-pacman-yellow">IDEIAS FUTURAS:</h4>
-              <ul className="list-disc list-inside font-retro text-gray-500 text-lg">
-                <li>Interface Gráfica (GUI)</li>
-                <li>Operações Científicas</li>
-                <li>Conversão para WebAssembly</li>
-              </ul>
+            <div className="space-y-4">
+              <div>
+                <h4 className="font-pixel text-[10px] text-pacman-yellow mb-2">TECH SPECS:</h4>
+                <ul className="list-disc list-inside font-retro text-gray-500 text-lg">
+                  <li>React + Vite</li>
+                  <li>Tailwind CSS</li>
+                  <li>Framer Motion</li>
+                </ul>
+              </div>
+
+              <a
+                href="https://marcos4lex.dev/portfolio-malu-miranda"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block w-full text-center font-pixel text-xs bg-pink-500/20 border-2 border-pink-500 text-pink-400 px-4 py-2 hover:bg-pink-500 hover:text-white transition-colors"
+              >
+                VISITAR SITE
+              </a>
             </div>
           </PixelCard>
 
