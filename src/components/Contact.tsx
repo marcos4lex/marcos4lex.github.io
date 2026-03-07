@@ -129,7 +129,7 @@ export default function Contact() {
               <p className="text-emerald-400 text-sm font-mono">{'>'} {t('contact.form.success')}</p>
             )}
             {status === 'error' && (
-              <p className="text-red-400 text-sm font-mono">{'>'} Erro ao enviar. Tente novamente.</p>
+              <p className="text-red-400 text-sm font-mono">{'>'} {t('contact.form.error')}</p>
             )}
 
             <button

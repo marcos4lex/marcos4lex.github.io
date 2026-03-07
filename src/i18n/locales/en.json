@@ -153,6 +153,7 @@
       "send": "Send message",
       "sending": "Sending...",
       "success": "Message sent successfully!",
+      "error": "Failed to send. Please try again.",
       "name_placeholder": "Your name",
       "email_placeholder": "your@email.com",
       "subject_placeholder": "How can I help?",

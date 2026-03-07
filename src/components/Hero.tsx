@@ -1,13 +1,12 @@
 import { useEffect, useState, Suspense } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Instagram, ArrowDown, Terminal } from 'lucide-react'
+import { Github, Linkedin, ArrowDown, Terminal } from 'lucide-react'
 import TechScene from './TechScene'
 
 const SOCIAL = [
   { icon: Github, href: 'https://github.com/marcos4lex', label: 'GitHub' },
   { icon: Linkedin, href: 'https://br.linkedin.com/in/marcos4lex', label: 'LinkedIn' },
-  { icon: Instagram, href: 'https://instagram.com/marcos4lex', label: 'Instagram' },
 ]
 
 function TypeWriter({ text }: { text: string }) {

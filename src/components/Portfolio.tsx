@@ -6,7 +6,6 @@ import { Github, ExternalLink } from 'lucide-react'
 const PLACEHOLDER_GRADIENTS = [
   'from-blue-900/60 via-dark-800 to-cyan-900/40',
   'from-violet-900/60 via-dark-800 to-blue-900/40',
-  'from-cyan-900/60 via-dark-800 to-emerald-900/40',
 ]
 
 export default function Portfolio() {
