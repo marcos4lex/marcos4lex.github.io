@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "portfolio": "Portfólio",
+    "services": "Serviços",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, sou",
+    "name": "Marcos Alexandre",
+    "roles": [
+      "Gestor de TI",
+      "Desenvolvedor Web",
+      "Freelancer"
+    ],
+    "pitch": "Transformando ideias em experiências digitais que fazem a diferença.",
+    "cta_portfolio": "Ver Portfólio",
+    "cta_contact": "Falar comigo"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Uma trajetória construída com dedicação",
+    "description": "Sou um profissional em plena metamorfose digital. Após anos atuando como Gestor de TI, onde garanti que infraestruturas complexas funcionassem perfeitamente, decidi mergulhar no código.\nMinha bagagem não é apenas técnica; é estratégica. Trago a disciplina da manutenção de hardware, a liderança de equipes e a visão de processos para o desenvolvimento de software.\nAtualmente, meu foco é Desenvolvimento Web, buscando criar aplicações que não apenas rodem, mas resolvam problemas reais de forma eficiente e limpa.",
+    "stats": [],
+    "timeline": [
+      {
+        "year": "2024",
+        "title": "Gestor de TI",
+        "description": "Atuação direta na gestão estratégica de TI corporativa. Liderança de equipes técnicas de alta performance, com foco em entregas críticas e prazos desafiadores, sempre preservando a agilidade e a qualidade. Responsável por gestão de projetos complexos, além do desenvolvimento e análise de dashboards para acompanhamento de indicadores (KPIs)."
+      },
+      {
+        "year": "2023",
+        "title": "Supervisor de TI",
+        "description": "Liderança de equipes e gestão de projetos de infraestrutura. Responsável pelo treinamento e desenvolvimento contínuo de novos colaboradores, além de orquestrar o planejamento logístico de entregas de equipamentos de TI."
+      },
+      {
+        "year": "2021",
+        "title": "Graduação em ADS",
+        "description": "Formação em Análise e Desenvolvimento de Sistemas, unindo teoria e prática."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Minha stack tecnológica",
+    "categories": [
+      {
+        "name": "Gestão de TI",
+        "items": [
+          "ITIL",
+          "Redes",
+          "Infraestrutura",
+          "Segurança",
+          "Projetos"
+        ]
+      },
+      {
+        "name": "Frontend",
+        "items": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "Backend & Ferramentas",
+        "items": [
+          "PHP",
+          "MySQL",
+          "Git",
+          "WordPress",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Sistemas & Suporte",
+        "items": [
+          "Linux",
+          "Windows Server",
+          "Suporte N1/N2/N3",
+          "Active Directory"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "subtitle": "Projetos pessoais em destaque",
+    "github": "GitHub",
+    "demo": "Demo",
+    "projects": [
+      {
+        "name": "JNR Climatização",
+        "description": "Projeto para JNR Climatização.",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JS"
+        ],
+        "github": "https://github.com/marcos4lex/jnr-climatizacao",
+        "demo": "https://marcos4lex.dev/jnr-climatizacao/",
+        "image": "/portifolio/jnrclimatizacao.png"
+      },
+      {
+        "name": "Malu Miranda",
+        "description": "Projeto para Malu Miranda.",
+        "tags": [
+          "Tailwind CSS",
+          "React",
+          "Vite",
+          "Typescript"
+        ],
+        "github": "https://github.com/marcos4lex/malu-miranda",
+        "demo": "https://malumiranda.com.br",
+        "image": "/portifolio/malumiranda.png"
+      }
+    ]
+  },
+  "services": {
+    "title": "Serviços",
+    "subtitle": "O que posso fazer por você",
+    "badge": "Atendimento nos fins de semana",
+    "items": [
+      {
+        "title": "Criação de Websites",
+        "description": "Sites institucionais modernos, responsivos e otimizados para SEO, do zero até o deploy."
+      },
+      {
+        "title": "Landing Pages",
+        "description": "Páginas de alta conversão para seu negócio, com foco em resultados e experiência do usuário."
+      },
+      {
+        "title": "Manutenção de Sites",
+        "description": "Atualização, correção de bugs, melhorias de performance e segurança em sites existentes."
+      },
+      {
+        "title": "Consultoria em TI",
+        "description": "Orientação técnica para pequenas e médias empresas sobre infraestrutura, ferramentas e boas práticas."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Vamos conversar?",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso!",
+      "name_placeholder": "Seu nome",
+      "email_placeholder": "seu@email.com",
+      "subject_placeholder": "Como posso ajudar?",
+      "message_placeholder": "Descreva seu projeto ou dúvida..."
+    },
+    "info_title": "Informações de contato",
+    "social": "Redes sociais"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "back_top": "Voltar ao topo",
+    "made_with": "Feito com"
+  }
+}

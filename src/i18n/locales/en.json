@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Marcos Alexandre",
+    "roles": [
+      "IT Manager",
+      "Web Developer",
+      "Freelancer"
+    ],
+    "pitch": "Turning ideas into digital experiences that make a difference.",
+    "cta_portfolio": "View Portfolio",
+    "cta_contact": "Get in touch"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A journey built with dedication",
+    "description": "WHO IS MARCOS?\nI'm a professional surrounded by digital transformation. After years working as an IT Manager, where I ensured complex infrastructures ran flawlessly, I decided to dive into code.\nMy background isn't purely technical; it's strategic. I bring the discipline of hardware maintenance, team leadership, and process vision into software development.\nCurrently, my focus is Web Development, aiming to build applications that not only run but solve real problems efficiently and cleanly.",
+    "stats": [],
+    "timeline": [
+      {
+        "year": "2024",
+        "title": "IT Manager",
+        "description": "Direct involvement in corporate IT strategic management. Leadership of high-performance technical teams, focused on critical deliveries and challenging deadlines, always preserving agility and quality. Responsible for complex project management, as well as developing and analyzing dashboards to track key performance indicators (KPIs)."
+      },
+      {
+        "year": "2023",
+        "title": "IT Supervisor",
+        "description": "Leading teams and managing infrastructure projects. Responsible for the continuous training and development of new employees, as well as orchestrating the logistical planning for IT equipment deliveries."
+      },
+      {
+        "year": "2021",
+        "title": "Systems Analysis Degree",
+        "description": "Graduated in Systems Analysis and Development, bridging theory and hands-on practice."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My tech stack",
+    "categories": [
+      {
+        "name": "IT Management",
+        "items": [
+          "ITIL",
+          "Networking",
+          "Infrastructure",
+          "Security",
+          "Projects"
+        ]
+      },
+      {
+        "name": "Frontend",
+        "items": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "Backend & Tools",
+        "items": [
+          "PHP",
+          "MySQL",
+          "Git",
+          "WordPress",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Systems & Support",
+        "items": [
+          "Linux",
+          "Windows Server",
+          "N1/N2/N3 Support",
+          "Active Directory"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Personal projects in spotlight",
+    "github": "GitHub",
+    "demo": "Demo",
+    "projects": [
+      {
+        "name": "JNR Climatização",
+        "description": "Project for JNR Climatização.",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "JS"
+        ],
+        "github": "https://github.com/marcos4lex/jnr-climatizacao",
+        "demo": "https://marcos4lex.dev/jnr-climatizacao/",
+        "image": "/portifolio/jnrclimatizacao.png"
+      },
+      {
+        "name": "Malu Miranda",
+        "description": "Project for Malu Miranda.",
+        "tags": [
+          "Tailwind CSS",
+          "React",
+          "Vite",
+          "Typescript"
+        ],
+        "github": "https://github.com/marcos4lex/malu-miranda",
+        "demo": "https://malumiranda.com.br",
+        "image": "/portifolio/malumiranda.png"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "What I can do for you",
+    "badge": "Weekend availability",
+    "items": [
+      {
+        "title": "Website Creation",
+        "description": "Modern, responsive and SEO-optimized institutional websites, from scratch to deployment."
+      },
+      {
+        "title": "Landing Pages",
+        "description": "High-conversion pages for your business, focused on results and user experience."
+      },
+      {
+        "title": "Website Maintenance",
+        "description": "Updates, bug fixes, performance improvements and security on existing websites."
+      },
+      {
+        "title": "IT Consulting",
+        "description": "Technical guidance for small and medium businesses on infrastructure, tools and best practices."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk?",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "name_placeholder": "Your name",
+      "email_placeholder": "your@email.com",
+      "subject_placeholder": "How can I help?",
+      "message_placeholder": "Describe your project or question..."
+    },
+    "info_title": "Contact information",
+    "social": "Social media"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "back_top": "Back to top",
+    "made_with": "Made with"
+  }
+}
