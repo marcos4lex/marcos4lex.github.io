@@ -7,37 +7,61 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Hi, I'm",
-    "name": "Marcos Alexandre",
-    "roles": [
-      "IT Manager",
-      "Web Developer",
-      "Freelancer"
-    ],
-    "pitch": "Turning ideas into digital experiences that make a difference.",
-    "cta_portfolio": "View Portfolio",
-    "cta_contact": "Get in touch"
+    "greeting": "HI, I'M",
+    "name_first": "Marcos",
+    "name_last": "Alexandre",
+    "subtitle": "Front-end Developer & IT Supervisor",
+    "pitch": "I turn ideas into modern, fast, and efficient digital experiences. Building solutions that drive results for businesses and people.",
+    "cta_contact": "Get in touch",
+    "cta_portfolio": "View projects",
+    "available": "Available for new projects",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "TypeScript"
+    ]
   },
   "about": {
     "title": "About Me",
     "subtitle": "A journey built with dedication",
-    "description": "WHO IS MARCOS?\nI'm a professional surrounded by digital transformation. After years working as an IT Manager, where I ensured complex infrastructures ran flawlessly, I decided to dive into code.\nMy background isn't purely technical; it's strategic. I bring the discipline of hardware maintenance, team leadership, and process vision into software development.\nCurrently, my focus is Web Development, aiming to build applications that not only run but solve real problems efficiently and cleanly.",
+    "description": "IT professional with over 3 years of experience in team management, infrastructure, and development of digital solutions.",
     "stats": [],
     "timeline": [
       {
-        "year": "2024",
-        "title": "IT Manager",
-        "description": "Direct involvement in corporate IT strategic management. Leadership of high-performance technical teams, focused on critical deliveries and challenging deadlines, always preserving agility and quality. Responsible for complex project management, as well as developing and analyzing dashboards to track key performance indicators (KPIs)."
+        "year": "Objective",
+        "title": "Web Developer",
+        "description": "Currently developing modern websites for businesses and entrepreneurs, focused on performance, user experience, and real results.",
+        "bullets": [
+          "Institutional sites and landing pages",
+          "Modern and responsive front-end",
+          "SEO and performance (Lighthouse)",
+          "Integrations and automations"
+        ]
       },
       {
-        "year": "2023",
+        "year": "2024",
         "title": "IT Supervisor",
-        "description": "Leading teams and managing infrastructure projects. Responsible for the continuous training and development of new employees, as well as orchestrating the logistical planning for IT equipment deliveries."
+        "description": "Team leadership and infrastructure project management. Responsible for implementing and continuously improving new IT solutions, ensuring operational efficiency and strategic alignment with company objectives.",
+        "bullets": [
+          "Technical team management",
+          "Infrastructure and networks",
+          "Information security",
+          "Project planning and execution",
+          "Systems and user support"
+        ]
       },
       {
         "year": "2021",
         "title": "Systems Analysis Degree",
-        "description": "Graduated in Systems Analysis and Development, bridging theory and hands-on practice."
+        "description": "Graduated in Systems Analysis and Development, bridging theory and hands-on practice to build efficient and innovative solutions.",
+        "bullets": [
+          "Programming logic",
+          "Databases",
+          "Software engineering",
+          "Systems development"
+        ]
       }
     ]
   },
@@ -50,9 +74,12 @@
         "items": [
           "ITIL",
           "Networking",
-          "Infrastructure",
-          "Security",
-          "Projects"
+          "Information Security",
+          "Projects",
+          "Tech Recruiter",
+          "Team Management",
+          "Process Optimization",
+          "Asset Management"
         ]
       },
       {
@@ -62,17 +89,18 @@
           "CSS3",
           "JavaScript",
           "React",
-          "Tailwind CSS"
+          "Tailwind CSS",
+          "Bootstrap"
         ]
       },
       {
         "name": "Backend & Tools",
         "items": [
-          "PHP",
           "MySQL",
-          "Git",
-          "WordPress",
-          "Node.js"
+          "Git/Github",
+          "Node.js",
+          "Vercel",
+          "API"
         ]
       },
       {
@@ -81,7 +109,10 @@
           "Linux",
           "Windows Server",
           "N1/N2/N3 Support",
-          "Active Directory"
+          "Computer Networks",
+          "Systems Administration",
+          "Ticket Management",
+          "Infrastructure"
         ]
       }
     ]
@@ -100,8 +131,7 @@
           "CSS3",
           "JS"
         ],
-        "github": "https://github.com/marcos4lex/jnr-climatizacao",
-        "demo": "https://marcos4lex.dev/jnr-climatizacao/",
+        "demo": "https://jnrclimatizacao.com",
         "image": "/portifolio/jnrclimatizacao.png"
       },
       {

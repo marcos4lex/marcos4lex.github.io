@@ -13,7 +13,7 @@ const SOCIAL_COLORS = [
   'hover:border-slate-400/50 hover:shadow-[0_0_12px_rgba(148,163,184,0.2)]',
 ]
 
-const FORMSPREE_ID = 'YOUR_FORM_ID'
+const WEB3FORMS_KEY = 'b70518f6-98f4-4d64-bcee-9314bd6a1fdc'
 
 export default function Contact() {
   const { t } = useTranslation()
@@ -39,10 +39,13 @@ export default function Contact() {
     setErrors({})
     setStatus('sending')
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          access_key: WEB3FORMS_KEY,
+          ...form,
+        }),
       })
       if (res.ok) {
         setStatus('success')

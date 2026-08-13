@@ -7,37 +7,61 @@
     "contact": "Contato"
   },
   "hero": {
-    "greeting": "Olá, sou",
-    "name": "Marcos Alexandre",
-    "roles": [
-      "Gestor de TI",
-      "Desenvolvedor Web",
-      "Freelancer"
-    ],
-    "pitch": "Transformando ideias em experiências digitais que fazem a diferença.",
-    "cta_portfolio": "Ver Portfólio",
-    "cta_contact": "Falar comigo"
+    "greeting": "OLÁ, EU SOU",
+    "name_first": "Marcos",
+    "name_last": "Alexandre",
+    "subtitle": "Desenvolvedor Front-end | Supervisor de TI",
+    "pitch": "Transformo ideias em experiências digitais modernas, rápidas e eficientes. Criando soluções que geram resultados para empresas e pessoas.",
+    "cta_contact": "Falar comigo",
+    "cta_portfolio": "Ver projetos",
+    "available": "Disponível para novos projetos",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "TypeScript"
+    ]
   },
   "about": {
     "title": "Sobre Mim",
     "subtitle": "Uma trajetória construída com dedicação",
-    "description": "Sou um profissional em plena metamorfose digital. Após anos atuando como Gestor de TI, onde garanti que infraestruturas complexas funcionassem perfeitamente, decidi mergulhar no código.\nMinha bagagem não é apenas técnica; é estratégica. Trago a disciplina da manutenção de hardware, a liderança de equipes e a visão de processos para o desenvolvimento de software.\nAtualmente, meu foco é Desenvolvimento Web, buscando criar aplicações que não apenas rodem, mas resolvam problemas reais de forma eficiente e limpa.",
+    "description": "Profissional de TI com mais de 3 anos de experiência em gestão de equipes, infraestrutura e desenvolvimento de soluções digitais.",
     "stats": [],
     "timeline": [
       {
-        "year": "2024",
-        "title": "Gestor de TI",
-        "description": "Atuação direta na gestão estratégica de TI corporativa. Liderança de equipes técnicas de alta performance, com foco em entregas críticas e prazos desafiadores, sempre preservando a agilidade e a qualidade. Responsável por gestão de projetos complexos, além do desenvolvimento e análise de dashboards para acompanhamento de indicadores (KPIs)."
+        "year": "Objetivo",
+        "title": "Desenvolvedor Web",
+        "description": "Atualmente desenvolvendo websites modernos para empresas e empreendedores, com foco em performance, experiência do usuário e resultados reais.",
+        "bullets": [
+          "Sites institucionais e landing pages",
+          "Front-end moderno e responsivo",
+          "SEO e performance (Lighthouse)",
+          "Integrações e automações"
+        ]
       },
       {
-        "year": "2023",
+        "year": "2024",
         "title": "Supervisor de TI",
-        "description": "Liderança de equipes e gestão de projetos de infraestrutura. Responsável pelo treinamento e desenvolvimento contínuo de novos colaboradores, além de orquestrar o planejamento logístico de entregas de equipamentos de TI."
+        "description": "Liderança de equipes e gestão de operações de TI, atuando na implantação e evolução contínua de soluções tecnológicas. Foco em eficiência operacional, melhoria de processos e alinhamento das iniciativas de TI às necessidades estratégicas da empresa.",
+        "bullets": [
+          "Liderança e gestão de equipes técnicas",
+          "Acompanhamento de desempenho e produtividade da equipe.",
+          "Coordenação de atividades e rotinas operacionais de TI",
+          "Monitoramento de SLAs",
+          "Coordenação de projetos de implantação e atualização tecnológica."
+        ]
       },
       {
         "year": "2021",
         "title": "Graduação em ADS",
-        "description": "Formação em Análise e Desenvolvimento de Sistemas, unindo teoria e prática."
+        "description": "Formação em Análise e Desenvolvimento de Sistemas, unindo teoria à prática para criar soluções eficientes e inovadoras.",
+        "bullets": [
+          "Lógica de programação",
+          "Banco de dados",
+          "Engenharia de software",
+          "Desenvolvimento de sistemas"
+        ]
       }
     ]
   },
@@ -50,9 +74,12 @@
         "items": [
           "ITIL",
           "Redes",
-          "Infraestrutura",
-          "Segurança",
-          "Projetos"
+          "Segurança da Informação",
+          "Projetos",
+          "Tech Recruiter",
+          "Gestão de Equipes",
+          "Otimização de Processos",
+          "Gestão de Ativos"
         ]
       },
       {
@@ -62,17 +89,18 @@
           "CSS3",
           "JavaScript",
           "React",
-          "Tailwind CSS"
+          "Tailwind CSS",
+          "Bootstrap"
         ]
       },
       {
         "name": "Backend & Ferramentas",
         "items": [
-          "PHP",
           "MySQL",
-          "Git",
-          "WordPress",
-          "Node.js"
+          "Git/Github",
+          "Node.js",
+          "Vercel",
+          "API"
         ]
       },
       {
@@ -81,7 +109,10 @@
           "Linux",
           "Windows Server",
           "Suporte N1/N2/N3",
-          "Active Directory"
+          "Redes de Computadores",
+          "Administração de Sistemas",
+          "Gestão de Chamados",
+          "Infraestrutura"
         ]
       }
     ]
@@ -100,8 +131,7 @@
           "CSS3",
           "JS"
         ],
-        "github": "https://github.com/marcos4lex/jnr-climatizacao",
-        "demo": "https://marcos4lex.dev/jnr-climatizacao/",
+        "demo": "https://jnrclimatizacao.com",
         "image": "/portifolio/jnrclimatizacao.png"
       },
       {
@@ -133,7 +163,7 @@
         "description": "Páginas de alta conversão para seu negócio, com foco em resultados e experiência do usuário."
       },
       {
-        "title": "Manutenção de Sites",
+        "title": "Manutenção de Websites",
         "description": "Atualização, correção de bugs, melhorias de performance e segurança em sites existentes."
       },
       {

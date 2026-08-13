@@ -16,7 +16,8 @@ export default function Skills() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
-  const categories: { name: string; items: string[] }[] = t('skills.categories', { returnObjects: true }) as { name: string; items: string[] }[]
+  const categoriesRes = t('skills.categories', { returnObjects: true })
+  const categories: { name: string; items: string[] }[] = Array.isArray(categoriesRes) ? categoriesRes : []
 
   return (
     <section id="skills" className="relative py-28 px-6 overflow-hidden" ref={ref}>

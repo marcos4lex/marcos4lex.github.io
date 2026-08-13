@@ -18,7 +18,8 @@ export default function Services() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
-  const items: { title: string; description: string }[] = t('services.items', { returnObjects: true }) as { title: string; description: string }[]
+  const itemsRes = t('services.items', { returnObjects: true })
+  const items: { title: string; description: string }[] = Array.isArray(itemsRes) ? itemsRes : []
 
   return (
     <section id="services" className="relative py-28 px-6 overflow-hidden" ref={ref}>

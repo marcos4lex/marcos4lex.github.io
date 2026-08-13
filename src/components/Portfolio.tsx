@@ -13,21 +13,15 @@ export default function Portfolio() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
+  const projectsRes = t('portfolio.projects', { returnObjects: true })
   const projects: {
     name: string
     description: string
     tags: string[]
-    github: string
+    github?: string
     demo: string
     image?: string
-  }[] = t('portfolio.projects', { returnObjects: true }) as {
-    name: string
-    description: string
-    tags: string[]
-    github: string
-    demo: string
-    image?: string
-  }[]
+  }[] = Array.isArray(projectsRes) ? projectsRes : []
 
   return (
     <section id="portfolio" className="relative py-28 px-6 overflow-hidden" ref={ref}>
@@ -74,15 +68,17 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/30 to-transparent" />
 
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="GitHub"
-                    className="w-11 h-11 rounded-full bg-dark-900/90 border border-slate-600 flex items-center justify-center text-white hover:border-accent-blue hover:text-accent-blue hover:shadow-[0_0_14px_rgba(59,130,246,0.4)] transition-all"
-                  >
-                    <Github size={18} />
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="GitHub"
+                      className="w-11 h-11 rounded-full bg-dark-900/90 border border-slate-600 flex items-center justify-center text-white hover:border-accent-blue hover:text-accent-blue hover:shadow-[0_0_14px_rgba(59,130,246,0.4)] transition-all"
+                    >
+                      <Github size={18} />
+                    </a>
+                  )}
                   <a
                     href={project.demo}
                     target="_blank"
