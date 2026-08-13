@@ -10,7 +10,7 @@
     "greeting": "OLÁ, EU SOU",
     "name_first": "Marcos",
     "name_last": "Alexandre",
-    "subtitle": "Desenvolvedor Front-end | Supervisor de TI",
+    "subtitle": "Desenvolvedor Full Stack | Supervisor de TI",
     "pitch": "Transformo ideias em experiências digitais modernas, rápidas e eficientes. Criando soluções que geram resultados para empresas e pessoas.",
     "cta_contact": "Falar comigo",
     "cta_portfolio": "Ver projetos",
@@ -31,7 +31,7 @@
     "timeline": [
       {
         "year": "Objetivo",
-        "title": "Desenvolvedor Web",
+        "title": "Desenvolvedor Full Stack",
         "description": "Atualmente desenvolvendo websites modernos para empresas e empreendedores, com foco em performance, experiência do usuário e resultados reais.",
         "bullets": [
           "Sites institucionais e landing pages",
@@ -96,6 +96,7 @@
       {
         "name": "Backend & Ferramentas",
         "items": [
+          "C",
           "MySQL",
           "Git/Github",
           "Node.js",

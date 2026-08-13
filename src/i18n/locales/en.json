@@ -10,7 +10,7 @@
     "greeting": "HI, I'M",
     "name_first": "Marcos",
     "name_last": "Alexandre",
-    "subtitle": "Front-end Developer & IT Supervisor",
+    "subtitle": "Full Stack Developer | IT Supervisor",
     "pitch": "I turn ideas into modern, fast, and efficient digital experiences. Building solutions that drive results for businesses and people.",
     "cta_contact": "Get in touch",
     "cta_portfolio": "View projects",
@@ -31,7 +31,7 @@
     "timeline": [
       {
         "year": "Objective",
-        "title": "Web Developer",
+        "title": "Full Stack Developer",
         "description": "Currently developing modern websites for businesses and entrepreneurs, focused on performance, user experience, and real results.",
         "bullets": [
           "Institutional sites and landing pages",
@@ -96,6 +96,7 @@
       {
         "name": "Backend & Tools",
         "items": [
+          "C",
           "MySQL",
           "Git/Github",
           "Node.js",
